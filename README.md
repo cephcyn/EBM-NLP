@@ -9,8 +9,9 @@ Full annotations are available in `ebm_nlp_*.tar.gz`, which are organized as fol
 
 * `documents/`
   Documents are labeled by their PubMed identification number (PMID). Each document has two files:
-    * `documents/{PMID}.text` Raw text of the abstract
+    * `documents/{PMID}.txt` Raw text of the abstract
     * `documents/{PMID}.tokens` Tokenized text to which the labels are assigned
+    * `documents/{PMID}.pos` POS tags of each of the tokens
 
 * `annotations/{aggregated|individual}/`
   Since each document is multiply-annotated, we present two versions of the data:
